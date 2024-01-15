@@ -1,6 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* General style for all start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* General style for all end */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Navbar section style start */
+.menu > li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  width: 81%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo > h2 {
+  color: #131318;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+.logo > .primary-name > .special {
+  color: #ff5400;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+.nav-links a {
+  color: #424247;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.menu > .home > a {
+  color: #ff5400;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+/* Navbar section style start */
+
+
+
+/* Responsive section is start here */
+@media screen and (max-width: 600px) {
+  .logo h2 {
+    font-size: 1.5rem;
+  }
+  .logo > .primary-name > .special {
+    font-size: 1.5rem;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: teal;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c9e9e;
+    transition: 0.3s ease;
+  }
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
 }
