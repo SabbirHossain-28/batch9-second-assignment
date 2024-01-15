@@ -72,87 +72,61 @@ input[type="checkbox"] {
 }
 /* Navbar section style start */
 
-.banner {
-  width: 81%;
-  max-width: 1170px;
-  margin: 0 auto;
-  background-image: linear-gradient(
-      180deg,
-      rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    ),
-    url("../Images/banner.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 8px;
+.tour{
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
 }
-.banner-container {
-  width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 48px;
+.tour-container{
+    display: flex;
+    align-items: center;
 }
-.banner-content {
-  width: 100%;
-  padding: 106px 185px;
+.tour-content{
+    width:50%;
 }
-.banner-container > h1 {
-  color: #fff;
-  font-size: 4rem;
-  font-weight: 800;
-  margin-bottom: 24px;
+.tour-img{
+    width:50%;
 }
-.banner-container > p {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 26px;
+.tour-img img{
+    width: 100%;
 }
-.search-bar {
-  width: 800px;
-  margin: 0 auto;
-  padding: 16px;
-  border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.3);
+.tour-content .tour-section-title{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 24px;
 }
-.search-bar form {
-  display: flex;
-  justify-content: space-around;
+.tour-content .tour-section-description1{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 24px;
 }
-.search-bar input {
-  width: 174px;
-  padding: 16px;
-  color: rgba(19, 19, 24, 0.5);
-  font-size: 1rem;
-  font-weight: 400;
-  border-radius: 8px;
-  border: none;
-  background-color: #fff;
+.tour-content .list-content{
+    padding: 0 20px;
+    margin-bottom: 24px;
 }
-.search-bar select {
-  width: 174px;
-  padding: 16px;
-  color: rgba(19, 19, 24, 0.5);
-  font-size: 1rem;
-  font-weight: 400;
-  border-radius: 8px;
-  border: none;
-  background-color: #fff;
+.tour-content .list-content .list-item li {
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 16px;
 }
-.search-bar button {
-  width: 174px;
-  padding: 18px;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 400;
-  border-radius: 8px;
-  background: #ff5400;
-  border: none;
-  outline: none;
+.tour-content button{
+    padding: 14px 35px;
+    color: #FFF;
+font-size: 1.2rem;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+border: none;
 }
 
 /* Responsive section is start here */
 @media screen and (max-width: 600px) {
+    .navbar{
+        width: 100%;
+    }
   .logo h2 {
     font-size: 1.5rem;
   }
@@ -178,5 +152,19 @@ input[type="checkbox"] {
   }
   .hamburger {
     display: block;
+  }
+  .tour{
+    width: 100%;
+  }
+  .tour-container{
+    flex-direction: column;
+  }
+  .tour-content{
+    width: 100%;
+    padding: 20px;
+  }
+  .tour-img{
+    width: 100%;
+    padding: 20px;
   }
 }
