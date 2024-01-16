@@ -542,6 +542,116 @@ border: none;
 .prices > img {
   margin-bottom: 32px;
 }
+
+/* Deals and discount section */
+.deals-sec-content{
+  width: 45%;
+  max-width: 640px;
+  margin: 100px auto 48px;
+  text-align: center;
+}
+.deals-sec-content h2{
+  color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.deals-sec-content p{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.deals{
+  width: 81%;
+  max-width: 1170px;
+  margin: 0 auto 24px;
+  background-image: url('../Images/deals.png');
+  padding: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+.deals-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.sideword p{
+  color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+.icon-title1{
+  display: flex;
+  gap: 8px;
+}
+.icon-title2{
+  display: flex;
+  gap: 8px;
+}
+.icon-title3{
+  display: flex;
+  gap: 8px;
+}
+.icon-title{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+.deals-content h3{
+  color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin-bottom: 16px;
+}
+.deals-content p{
+  color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 16px;
+}
+.deals-content h4{
+  color: #FF5400;
+font-size: 1.2rem;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.deals-content button{
+  padding: 14px 24px;
+  color: #FFF;
+font-size: 1.2rem;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+outline: none;
+}
+.deals-content{
+  width: 50%;
+  max-width: 580px;
+  padding: 50px;
+  border-radius: 16px;
+border: 2px solid #cb5757;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+.deals-middle{
+  width: 81%;
+  max-width: 1170px;
+  margin: 0 auto 24px;
+  background-image: url('../Images/deals2.png');
+  padding: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+.deals-container-middle{
+  display: flex;
+  justify-content: flex-start;
+}
 .place {
   width: 81%;
   max-width: 1170px;
@@ -889,5 +999,32 @@ footer{
   padding: 0;
   margin-top: 20px;
   text-align: center;
+}
+.deals-sec-content{
+  width: 100%;
+  padding: 20px;
+}
+.deals{
+  width: 100%;
+  padding: 180px 16px 16px 16px;
+}
+.deals-middle{
+  width: 100%;
+  padding: 180px 16px 16px 16px;
+}
+.deals-content{
+  width: 100%;
+  padding: 20px;
+}
+.deals-container{
+  justify-content: center;
+  align-items: end;
+
+}
+.deals-container-middle{
+  justify-content: center;
+}
+.dd-sec1,.dd-sec2,.dd-sec3{
+  padding: 20px;
 }
 }
