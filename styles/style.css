@@ -510,6 +510,7 @@ border: none;
 }
 .newsletter-image {
   width: 60%;
+  position: relative;
 }
 .newsletter-image img {
   width: 100%;
@@ -555,6 +556,29 @@ border: none;
   color: #fff;
   font-size: 1.2rem;
   font-weight: 800;
+}
+.discount{
+  width: 324px;
+  padding: 20px;
+  border-radius: 16px;
+background: #FF5400;
+text-align: center;
+transform: rotate(-19.628deg);
+position: absolute;
+/* bottom: 55px;
+left: 360px; */
+right: 1%;
+bottom: 12%;
+}
+.discount p{
+  color: #FFF;
+font-size:1.5rem ;
+font-weight: 400;
+}
+.discount h2{
+  color: #FFF;
+font-size: 2rem;
+font-weight: 800;
 }
 footer{
   background: rgba(19, 19, 24, 0.05);
@@ -734,4 +758,20 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+  .newsletter-image{
+    position: relative;
+  }
+  .discount{
+    position: absolute;
+    padding: 10px;
+    width: 200px;
+    font-size: 1rem;
+    /* right:20px; */
+  }
+.discount p {
+  font-size: 1rem;
+}
+.discount h2{
+  font-size: 1.5rem;
+}
 }
