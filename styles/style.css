@@ -138,7 +138,7 @@ background: #FFF;
 border: none;
 outline: none;
 }
-.search-bar button{
+.search-bar .btn-primary{
   width: 170px;
   color: #FFF;
 font-size: 1rem;
@@ -149,6 +149,106 @@ padding: 16px;
 border: none;
 }
 /* Banner section end */
+
+/*  */
+.feature {
+  width: 81%;
+  max-width: 1170px;
+  margin: 5.2rem auto 8.1rem;
+  display: flex;
+  align-items: center;
+}
+.feature-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  width: 60%;
+}
+.feature-img >a> img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: transform .7s ease-in-out;
+}
+
+.feature-img >a>.hover1:hover {
+  transform: rotate(20deg);
+  border: 2px solid rgba(0, 0, 0, 0.977);
+}
+.feature-img >a>.hover2:hover {
+  transform: rotate(-20deg);
+  border: 2px solid rgba(0, 0, 0, 0.977);
+}
+.feature-img >a>.hover3:hover {
+  transform: rotate(20deg);
+  border: 2px solid rgba(0, 0, 0, 0.977);
+}
+.feature-img >a>.hover4:hover {
+  transform: rotate(-20deg);
+  border: 2px solid rgba(0, 0, 0, 0.977);
+}
+.feature-content {
+  padding-left: 70px;
+  /* padding-right: 70px; */
+  width: 40%;
+}
+.feature-content > .feature-title {
+  color: #727272;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.feature-content > .feature-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.our {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.special {
+  color: #ff900e;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.feature-content button{
+  padding: 14px 35px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none; 
+  cursor: pointer;
+}
+.feature-content button:hover {
+  color: #ed3507f4 ;
+  background-color:#ff5500d4 ;
+  padding:10px 20px ;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*  */
+
 .tour {
   width: 81%;
   max-width: 1170px;
@@ -773,5 +873,21 @@ footer{
 }
 .discount h2{
   font-size: 1.5rem;
+}
+
+.feature{
+  width: 100;
+  /* padding: 20px; */
+  flex-direction: column;
+}
+.feature-img{
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.feature-content{
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
 }
 }
