@@ -78,7 +78,7 @@ input[type="checkbox"] {
   max-width: 1170px;
   margin: 0 auto;
   padding: 106px 0;
-  background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/banner.png');
+  background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -250,7 +250,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/maldivs.png");
+    url(<path-to-image>), url("../Images/maldivs.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -265,7 +265,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/indonesia.png");
+    url(<path-to-image>), url("../Images/indonesia.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -294,7 +294,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/srilanka.png");
+    url(<path-to-image>), url("../Images/srilanka.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -309,7 +309,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/amerika.png");
+    url(<path-to-image>), url("../Images/amerika.png");
   background: cover;
   display: flex;
   justify-content: center;
@@ -324,7 +324,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/kashmir.png");
+    url(<path-to-image>), url("../Images/kashmir.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -349,7 +349,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/bangladesh.png");
+    url(<path-to-image>), url("../Images/bangladesh.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -364,7 +364,7 @@ border: none;
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url(<path-to-image>), url("Images/bandarban.png");
+    url(<path-to-image>), url("../Images/bandarban.png");
   background-size: cover;
   display: flex;
   justify-content: center;
